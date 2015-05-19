@@ -1,0 +1,136 @@
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:ReceiptAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
+    <cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-receipt-advice-notification-draft</cbc:ProfileID>
+    <cbc:ID>483926</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:UUID>87R24ET6-7436-860E-227L-4S2DQ3DR935F</cbc:UUID>
+    <cbc:IssueDate>2010-03-13</cbc:IssueDate>
+    <cbc:Note>sample</cbc:Note>
+    <cac:OrderReference>
+        <cbc:ID>UBD553723</cbc:ID>
+        <cbc:SalesOrderID>LUN3290012</cbc:SalesOrderID>
+        <cbc:UUID>5A74390S-CA8F-235L-63B2-8HILA5F3F2T7</cbc:UUID>
+        <cbc:IssueDate>2010-03-12</cbc:IssueDate>
+    </cac:OrderReference>
+    <cac:DespatchDocumentReference>
+        <cbc:ID>564390</cbc:ID>
+        <cbc:UUID>44W2300F-9T36-643S-8520-6DATQR2173C3</cbc:UUID>
+        <cbc:IssueDate>2010-03-12</cbc:IssueDate>
+    </cac:DespatchDocumentReference>
+    <cac:DeliveryCustomerParty>
+        <cbc:CustomerAssignedAccountID>TYO37</cbc:CustomerAssignedAccountID>
+        <cbc:SupplierAssignedAccountID>RZ66284561</cbc:SupplierAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Chop Suey Chinese</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>China Way</cbc:StreetName>
+                <cbc:BuildingName>Health Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>74B</cbc:BuildingNumber>
+                <cbc:CityName>Washington</cbc:CityName>
+                <cbc:PostalZone>YY55 8BB</cbc:PostalZone>
+                <cbc:CountrySubentity>china</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>2nd Floor, Room 4</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>BH</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Washington District</cbc:RegistrationName>
+                <cbc:CompanyID>64892367</cbc:CompanyID>
+                <cbc:ExemptionReason>Local Authority</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>UK VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Mao Tse</cbc:Name>
+                <cbc:Telephone>7643 1236589</cbc:Telephone>
+                <cbc:Telefax>7643 1236589</cbc:Telefax>
+                <cbc:ElectronicMail>mao@chopsuey.gov.us</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cbc:CustomerAssignedAccountID>TY823</cbc:CustomerAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Supremes Delices</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Charles Street</cbc:StreetName>
+                <cbc:BuildingName>Le France</cbc:BuildingName>
+                <cbc:BuildingNumber>94G</cbc:BuildingNumber>
+                <cbc:CityName>Boston</cbc:CityName>
+                <cbc:PostalZone>II87 2CC</cbc:PostalZone>
+                <cbc:CountrySubentity>Heremouthshire</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>The Roundabout</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>BE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Boston City</cbc:RegistrationName>
+                <cbc:CompanyID>265 875 7645</cbc:CompanyID>
+                <cbc:ExemptionReason>N/A</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Jean Paul</cbc:Name>
+                <cbc:Telephone>3897 5337892</cbc:Telephone>
+                <cbc:Telefax>3897 5337892</cbc:Telefax>
+                <cbc:ElectronicMail>jeanpaul@supremes.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:Shipment>
+        <cbc:ID>1</cbc:ID>
+        <cac:Consignment>
+            <cbc:ID>1</cbc:ID>
+        </cac:Consignment>
+        <cac:Delivery>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="KGM">90</cbc:Quantity>
+            <cbc:ActualDeliveryDate>2010-03-12</cbc:ActualDeliveryDate>
+            <cbc:ActualDeliveryTime>10:10:18.0Z</cbc:ActualDeliveryTime>
+            <cac:RequestedDeliveryPeriod>
+                <cbc:StartDate>2010-03-12</cbc:StartDate>
+                <cbc:StartTime>09:30:07.0Z</cbc:StartTime>
+                <cbc:EndDate>2010-03-13</cbc:EndDate>
+                <cbc:EndTime>09:30:07.0Z</cbc:EndTime>
+            </cac:RequestedDeliveryPeriod>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>SAMPLE</cbc:Note>
+        <cbc:ReceivedQuantity unitCode="KGM">90</cbc:ReceivedQuantity>
+        <cbc:ShortQuantity unitCode="KGM">10</cbc:ShortQuantity>
+        <cac:Item>
+            <cbc:Description>Acme beeswax</cbc:Description>
+            <cbc:Name>beeswax</cbc:Name>
+            <cac:BuyersItemIdentification>
+                <cbc:ID>3645902</cbc:ID>
+            </cac:BuyersItemIdentification>
+            <cac:SellersItemIdentification>
+                <cbc:ID>32891075</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ItemInstance>
+                <cac:LotIdentification>
+                    <cbc:LotNumberID>532297546</cbc:LotNumberID>
+                    <cbc:ExpiryDate>2014-06-27</cbc:ExpiryDate>
+                </cac:LotIdentification>
+            </cac:ItemInstance>
+        </cac:Item>
+    </cac:ReceiptLine>
+</ReceiptAdvice>

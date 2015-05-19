@@ -1,0 +1,136 @@
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:ReceiptAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
+    <cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-receipt-advice-notification-draft</cbc:ProfileID>
+    <cbc:ID>638675</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:UUID>74J53OP2-4288-523Y-83SC-2L4DB1GH647C</cbc:UUID>
+    <cbc:IssueDate>2001-11-05</cbc:IssueDate>
+    <cbc:Note>sample</cbc:Note>
+    <cac:OrderReference>
+        <cbc:ID>GDU537401</cbc:ID>
+        <cbc:SalesOrderID>SHJ9377526</cbc:SalesOrderID>
+        <cbc:UUID>1J63957N-GF2L-630X-29X0-6BBJD5S1I7A0</cbc:UUID>
+        <cbc:IssueDate>2001-11-04</cbc:IssueDate>
+    </cac:OrderReference>
+    <cac:DespatchDocumentReference>
+        <cbc:ID>632896</cbc:ID>
+        <cbc:UUID>29D2384F-2A22-294N-7436-6UTANI0072R9</cbc:UUID>
+        <cbc:IssueDate>2001-11-04</cbc:IssueDate>
+    </cac:DespatchDocumentReference>
+    <cac:DeliveryCustomerParty>
+        <cbc:CustomerAssignedAccountID>GDT72</cbc:CustomerAssignedAccountID>
+        <cbc:SupplierAssignedAccountID>ID83627401</cbc:SupplierAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Grosella Restaurante</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Montreal Way</cbc:StreetName>
+                <cbc:BuildingName>Box Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>93Z</cbc:BuildingNumber>
+                <cbc:CityName>Minesotta</cbc:CityName>
+                <cbc:PostalZone>BN53 8GD</cbc:PostalZone>
+                <cbc:CountrySubentity>Montreal</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>5th Floor, Room 10</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>RW</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Minesotta District</cbc:RegistrationName>
+                <cbc:CompanyID>93672445</cbc:CompanyID>
+                <cbc:ExemptionReason>Local Authority</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>UK VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr August Martin</cbc:Name>
+                <cbc:Telephone>5320 7746243</cbc:Telephone>
+                <cbc:Telefax>5320 7746243</cbc:Telefax>
+                <cbc:ElectronicMail>augustm@grosellarestaurante.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cbc:CustomerAssignedAccountID>UT643</cbc:CustomerAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Gourmet Lanchonetes</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Top Way</cbc:StreetName>
+                <cbc:BuildingName>France Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>90C</cbc:BuildingNumber>
+                <cbc:CityName>Arizona</cbc:CityName>
+                <cbc:PostalZone>NB43 9DF</cbc:PostalZone>
+                <cbc:CountrySubentity>Heremouthshire</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>The Roundabout</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>YU</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Arizona City</cbc:RegistrationName>
+                <cbc:CompanyID>734 854 7439</cbc:CompanyID>
+                <cbc:ExemptionReason>N/A</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Diego Beltran</cbc:Name>
+                <cbc:Telephone>7326 4320618</cbc:Telephone>
+                <cbc:Telefax>7326 4320618</cbc:Telefax>
+                <cbc:ElectronicMail>diegob@gourmetlanchonetes.us</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:Shipment>
+        <cbc:ID>1</cbc:ID>
+        <cac:Consignment>
+            <cbc:ID>1</cbc:ID>
+        </cac:Consignment>
+        <cac:Delivery>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="KGM">90</cbc:Quantity>
+            <cbc:ActualDeliveryDate>2001-11-04</cbc:ActualDeliveryDate>
+            <cbc:ActualDeliveryTime>05:15:00.0Z</cbc:ActualDeliveryTime>
+            <cac:RequestedDeliveryPeriod>
+                <cbc:StartDate>2001-11-04</cbc:StartDate>
+                <cbc:StartTime>04:15:10.0Z</cbc:StartTime>
+                <cbc:EndDate>2001-11-05</cbc:EndDate>
+                <cbc:EndTime>04:15:10.0Z</cbc:EndTime>
+            </cac:RequestedDeliveryPeriod>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>SAMPLE</cbc:Note>
+        <cbc:ReceivedQuantity unitCode="KGM">90</cbc:ReceivedQuantity>
+        <cbc:ShortQuantity unitCode="KGM">10</cbc:ShortQuantity>
+        <cac:Item>
+            <cbc:Description>Acme beeswax</cbc:Description>
+            <cbc:Name>beeswax</cbc:Name>
+            <cac:BuyersItemIdentification>
+                <cbc:ID>4327530</cbc:ID>
+            </cac:BuyersItemIdentification>
+            <cac:SellersItemIdentification>
+                <cbc:ID>74773902</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ItemInstance>
+                <cac:LotIdentification>
+                    <cbc:LotNumberID>338654910</cbc:LotNumberID>
+                    <cbc:ExpiryDate>2006-03-20</cbc:ExpiryDate>
+                </cac:LotIdentification>
+            </cac:ItemInstance>
+        </cac:Item>
+    </cac:ReceiptLine>
+</ReceiptAdvice>

@@ -1,0 +1,136 @@
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:ReceiptAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
+    <cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-receipt-advice-notification-draft</cbc:ProfileID>
+    <cbc:ID>537265</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:UUID>58J74BN5-7493-329L-21RE-2K1BV2OP291S</cbc:UUID>
+    <cbc:IssueDate>2005-01-02</cbc:IssueDate>
+    <cbc:Note>sample</cbc:Note>
+    <cac:OrderReference>
+        <cbc:ID>CDT047328</cbc:ID>
+        <cbc:SalesOrderID>WIP5532198</cbc:SalesOrderID>
+        <cbc:UUID>5F22175D-LO2T-837Z-90Q2-1JMNC5W1I2P0</cbc:UUID>
+        <cbc:IssueDate>2005-01-01</cbc:IssueDate>
+    </cac:OrderReference>
+    <cac:DespatchDocumentReference>
+        <cbc:ID>532891</cbc:ID>
+        <cbc:UUID>33B3854X-1Y23-946S-6459-3RNTYU3907A1</cbc:UUID>
+        <cbc:IssueDate>2005-01-01</cbc:IssueDate>
+    </cac:DespatchDocumentReference>
+    <cac:DeliveryCustomerParty>
+        <cbc:CustomerAssignedAccountID>UTV65</cbc:CustomerAssignedAccountID>
+        <cbc:SupplierAssignedAccountID>NB00753365</cbc:SupplierAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Save a lot Markets</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Prisma Street</cbc:StreetName>
+                <cbc:BuildingName>Umbrella Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>76S</cbc:BuildingNumber>
+                <cbc:CityName>New Jersey</cbc:CityName>
+                <cbc:PostalZone>HH45 3MM</cbc:PostalZone>
+                <cbc:CountrySubentity>Prisma</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>8th Floor, Room 1</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>VG</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>New Jersey City</cbc:RegistrationName>
+                <cbc:CompanyID>73728654</cbc:CompanyID>
+                <cbc:ExemptionReason>Local Authority</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>UK VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Phill Down</cbc:Name>
+                <cbc:Telephone>6320 6328965</cbc:Telephone>
+                <cbc:Telefax>6320 6328965</cbc:Telefax>
+                <cbc:ElectronicMail>phill@savealotmarkets.gov.us</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cbc:CustomerAssignedAccountID>UP432</cbc:CustomerAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>La Mansion d Asie</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Wok Way</cbc:StreetName>
+                <cbc:BuildingName>Open Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>76G</cbc:BuildingNumber>
+                <cbc:CityName>South Carolina</cbc:CityName>
+                <cbc:PostalZone>RR86 3JK</cbc:PostalZone>
+                <cbc:CountrySubentity>Heremouthshire</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>The Roundabout</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>BV</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>South Carolina</cbc:RegistrationName>
+                <cbc:CompanyID>678 543 7439</cbc:CompanyID>
+                <cbc:ExemptionReason>N/A</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Bill Yang</cbc:Name>
+                <cbc:Telephone>0480 5273948</cbc:Telephone>
+                <cbc:Telefax>0480 5273948</cbc:Telefax>
+                <cbc:ElectronicMail>billyang@lamansiondasie.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:Shipment>
+        <cbc:ID>1</cbc:ID>
+        <cac:Consignment>
+            <cbc:ID>1</cbc:ID>
+        </cac:Consignment>
+        <cac:Delivery>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="KGM">90</cbc:Quantity>
+            <cbc:ActualDeliveryDate>2005-01-01</cbc:ActualDeliveryDate>
+            <cbc:ActualDeliveryTime>09:20:00.0Z</cbc:ActualDeliveryTime>
+            <cac:RequestedDeliveryPeriod>
+                <cbc:StartDate>2005-06-20</cbc:StartDate>
+                <cbc:StartTime>08:30:10.0Z</cbc:StartTime>
+                <cbc:EndDate>2005-01-02</cbc:EndDate>
+                <cbc:EndTime>08:30:10.0Z</cbc:EndTime>
+            </cac:RequestedDeliveryPeriod>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>SAMPLE</cbc:Note>
+        <cbc:ReceivedQuantity unitCode="KGM">90</cbc:ReceivedQuantity>
+        <cbc:ShortQuantity unitCode="KGM">10</cbc:ShortQuantity>
+        <cac:Item>
+            <cbc:Description>Acme beeswax</cbc:Description>
+            <cbc:Name>beeswax</cbc:Name>
+            <cac:BuyersItemIdentification>
+                <cbc:ID>1193097</cbc:ID>
+            </cac:BuyersItemIdentification>
+            <cac:SellersItemIdentification>
+                <cbc:ID>20078478</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ItemInstance>
+                <cac:LotIdentification>
+                    <cbc:LotNumberID>532901756</cbc:LotNumberID>
+                    <cbc:ExpiryDate>2010-02-23</cbc:ExpiryDate>
+                </cac:LotIdentification>
+            </cac:ItemInstance>
+        </cac:Item>
+    </cac:ReceiptLine>
+</ReceiptAdvice>

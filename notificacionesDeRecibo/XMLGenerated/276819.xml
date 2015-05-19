@@ -1,0 +1,136 @@
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:ReceiptAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
+    <cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-receipt-advice-notification-draft</cbc:ProfileID>
+    <cbc:ID>276819</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:UUID>26G71HB8-1430-753E-74DB-9L5JUB6DE983D</cbc:UUID>
+    <cbc:IssueDate>2003-02-10</cbc:IssueDate>
+    <cbc:Note>sample</cbc:Note>
+    <cac:OrderReference>
+        <cbc:ID>WFE320475</cbc:ID>
+        <cbc:SalesOrderID>DAN3004600</cbc:SalesOrderID>
+        <cbc:UUID>9F58674R-SA4J-617D-36A2-9EEBD3Y1A7F2</cbc:UUID>
+        <cbc:IssueDate>2003-02-09</cbc:IssueDate>
+    </cac:OrderReference>
+    <cac:DespatchDocumentReference>
+        <cbc:ID>200815</cbc:ID>
+        <cbc:UUID>97E4762F-1B90-376B-3210-9FEEB7745C9</cbc:UUID>
+        <cbc:IssueDate>2003-02-09</cbc:IssueDate>
+    </cac:DespatchDocumentReference>
+    <cac:DeliveryCustomerParty>
+        <cbc:CustomerAssignedAccountID>DAN20</cbc:CustomerAssignedAccountID>
+        <cbc:SupplierAssignedAccountID>YU87362154</cbc:SupplierAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Quenn Cozinha</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Fremont Street</cbc:StreetName>
+                <cbc:BuildingName>Key Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>67B</cbc:BuildingNumber>
+                <cbc:CityName>Las Vegas</cbc:CityName>
+                <cbc:PostalZone>UU88 2UU</cbc:PostalZone>
+                <cbc:CountrySubentity>fremont</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>2nd Floor, Room 5</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>UU</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Las Vegas City</cbc:RegistrationName>
+                <cbc:CompanyID>30147025</cbc:CompanyID>
+                <cbc:ExemptionReason>Local Authority</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>UK VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Karl Manson</cbc:Name>
+                <cbc:Telephone>0210 5972523</cbc:Telephone>
+                <cbc:Telefax>0210 5972523</cbc:Telefax>
+                <cbc:ElectronicMail>karl@quenncozinha.gov.usa</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cbc:CustomerAssignedAccountID>DA354</cbc:CustomerAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Piccolo Und Mehr</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>London Way</cbc:StreetName>
+                <cbc:BuildingName>Up Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>76G</cbc:BuildingNumber>
+                <cbc:CityName>Arizona</cbc:CityName>
+                <cbc:PostalZone>FF99 6CC</cbc:PostalZone>
+                <cbc:CountrySubentity>Heremouthshire</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>The Roundabout</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>BG</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Piccolo Und Mehr Consortium</cbc:RegistrationName>
+                <cbc:CompanyID>850 629 4310</cbc:CompanyID>
+                <cbc:ExemptionReason>N/A</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Jack Elliot</cbc:Name>
+                <cbc:Telephone>0620 3203610</cbc:Telephone>
+                <cbc:Telefax>0620 3203610</cbc:Telefax>
+                <cbc:ElectronicMail>jacke@Pconsortial.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:Shipment>
+        <cbc:ID>1</cbc:ID>
+        <cac:Consignment>
+            <cbc:ID>1</cbc:ID>
+        </cac:Consignment>
+        <cac:Delivery>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="KGM">90</cbc:Quantity>
+            <cbc:ActualDeliveryDate>2003-02-09</cbc:ActualDeliveryDate>
+            <cbc:ActualDeliveryTime>02:20:00.0Z</cbc:ActualDeliveryTime>
+            <cac:RequestedDeliveryPeriod>
+                <cbc:StartDate>2003-02-09</cbc:StartDate>
+                <cbc:StartTime>01:30:00.0Z</cbc:StartTime>
+                <cbc:EndDate>2003-02-10</cbc:EndDate>
+                <cbc:EndTime>01:30:00.0Z</cbc:EndTime>
+            </cac:RequestedDeliveryPeriod>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>SAMPLE</cbc:Note>
+        <cbc:ReceivedQuantity unitCode="KGM">90</cbc:ReceivedQuantity>
+        <cbc:ShortQuantity unitCode="KGM">10</cbc:ShortQuantity>
+        <cac:Item>
+            <cbc:Description>Acme beeswax</cbc:Description>
+            <cbc:Name>beeswax</cbc:Name>
+            <cac:BuyersItemIdentification>
+                <cbc:ID>6229017</cbc:ID>
+            </cac:BuyersItemIdentification>
+            <cac:SellersItemIdentification>
+                <cbc:ID>53002765</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ItemInstance>
+                <cac:LotIdentification>
+                    <cbc:LotNumberID>378291737</cbc:LotNumberID>
+                    <cbc:ExpiryDate>2008-04-01</cbc:ExpiryDate>
+                </cac:LotIdentification>
+            </cac:ItemInstance>
+        </cac:Item>
+    </cac:ReceiptLine>
+</ReceiptAdvice>

@@ -1,0 +1,136 @@
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:ReceiptAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
+    <cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-receipt-advice-notification-draft</cbc:ProfileID>
+    <cbc:ID>438652</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:UUID>90A35TQ7-6520-634E-74TR-5W2OL4DB902A</cbc:UUID>
+    <cbc:IssueDate>2012-06-29</cbc:IssueDate>
+    <cbc:Note>sample</cbc:Note>
+    <cac:OrderReference>
+        <cbc:ID>JSU290617</cbc:ID>
+        <cbc:SalesOrderID>DIN5238901</cbc:SalesOrderID>
+        <cbc:UUID>2S93671C-KD3T-217M-39W2-1MNSJ9W2J0A8</cbc:UUID>
+        <cbc:IssueDate>2012-06-28</cbc:IssueDate>
+    </cac:OrderReference>
+    <cac:DespatchDocumentReference>
+        <cbc:ID>428991</cbc:ID>
+        <cbc:UUID>33X4492V-2J99-289D-2175-3YLMJA1639G2</cbc:UUID>
+        <cbc:IssueDate>2012-06-28</cbc:IssueDate>
+    </cac:DespatchDocumentReference>
+    <cac:DeliveryCustomerParty>
+        <cbc:CustomerAssignedAccountID>ASA48</cbc:CustomerAssignedAccountID>
+        <cbc:SupplierAssignedAccountID>AV27234612</cbc:SupplierAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Que Delicia</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Acorn Way</cbc:StreetName>
+                <cbc:BuildingName>Latin Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>43L</cbc:BuildingNumber>
+                <cbc:CityName>Boston</cbc:CityName>
+                <cbc:PostalZone>MM88 3NN</cbc:PostalZone>
+                <cbc:CountrySubentity>Acorn</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>3rd Floor, Room 8</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>HJ</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Boston City</cbc:RegistrationName>
+                <cbc:CompanyID>84739264</cbc:CompanyID>
+                <cbc:ExemptionReason>Local Authority</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>UK VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Juaquin Casas</cbc:Name>
+                <cbc:Telephone>0820 4365231</cbc:Telephone>
+                <cbc:Telefax>0820 4365231</cbc:Telefax>
+                <cbc:ElectronicMail>juaquinc@quedelicia.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cbc:CustomerAssignedAccountID>LJ540</cbc:CustomerAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Godos Cocina Tipica</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Gaslamp Street</cbc:StreetName>
+                <cbc:BuildingName>Lucky Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>74D</cbc:BuildingNumber>
+                <cbc:CityName>San Diego</cbc:CityName>
+                <cbc:PostalZone>WQ73 7CA</cbc:PostalZone>
+                <cbc:CountrySubentity>Heremouthshire</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>The Roundabout</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>MC</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>San Diego District</cbc:RegistrationName>
+                <cbc:CompanyID>835 254 2190</cbc:CompanyID>
+                <cbc:ExemptionReason>N/A</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mrs Michael Lan</cbc:Name>
+                <cbc:Telephone>6530 2711538</cbc:Telephone>
+                <cbc:Telefax>6530 2711538</cbc:Telefax>
+                <cbc:ElectronicMail>michaelan@godoscocina.com.us</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:Shipment>
+        <cbc:ID>1</cbc:ID>
+        <cac:Consignment>
+            <cbc:ID>1</cbc:ID>
+        </cac:Consignment>
+        <cac:Delivery>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="KGM">90</cbc:Quantity>
+            <cbc:ActualDeliveryDate>2012-06-28</cbc:ActualDeliveryDate>
+            <cbc:ActualDeliveryTime>04:38:00.0Z</cbc:ActualDeliveryTime>
+            <cac:RequestedDeliveryPeriod>
+                <cbc:StartDate>2012-06-28</cbc:StartDate>
+                <cbc:StartTime>03:30:00.0Z</cbc:StartTime>
+                <cbc:EndDate>2012-06-29</cbc:EndDate>
+                <cbc:EndTime>03:30:00.0Z</cbc:EndTime>
+            </cac:RequestedDeliveryPeriod>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>SAMPLE</cbc:Note>
+        <cbc:ReceivedQuantity unitCode="KGM">90</cbc:ReceivedQuantity>
+        <cbc:ShortQuantity unitCode="KGM">10</cbc:ShortQuantity>
+        <cac:Item>
+            <cbc:Description>Acme beeswax</cbc:Description>
+            <cbc:Name>beeswax</cbc:Name>
+            <cac:BuyersItemIdentification>
+                <cbc:ID>4390276</cbc:ID>
+            </cac:BuyersItemIdentification>
+            <cac:SellersItemIdentification>
+                <cbc:ID>63290765</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ItemInstance>
+                <cac:LotIdentification>
+                    <cbc:LotNumberID>754086538</cbc:LotNumberID>
+                    <cbc:ExpiryDate>2015-05-18</cbc:ExpiryDate>
+                </cac:LotIdentification>
+            </cac:ItemInstance>
+        </cac:Item>
+    </cac:ReceiptLine>
+</ReceiptAdvice>

@@ -1,0 +1,136 @@
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:ReceiptAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
+    <cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-receipt-advice-notification-draft</cbc:ProfileID>
+    <cbc:ID>427894</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:UUID>38G90SJ3-2295-745E-74NM-2J0KL4PO654B</cbc:UUID>
+    <cbc:IssueDate>2011-02-15</cbc:IssueDate>
+    <cbc:Note>sample</cbc:Note>
+    <cac:OrderReference>
+        <cbc:ID>VBN285674</cbc:ID>
+        <cbc:SalesOrderID>WIC6648327</cbc:SalesOrderID>
+        <cbc:UUID>2J45638M-XC5Y-650B-54G2-5VBDI3O2K5S4</cbc:UUID>
+        <cbc:IssueDate>2011-02-14</cbc:IssueDate>
+    </cac:OrderReference>
+    <cac:DespatchDocumentReference>
+        <cbc:ID>547883</cbc:ID>
+        <cbc:UUID>75S6430V-3D26-538N-3725-4XSJLU2645L9</cbc:UUID>
+        <cbc:IssueDate>2011-02-14</cbc:IssueDate>
+    </cac:DespatchDocumentReference>
+    <cac:DeliveryCustomerParty>
+        <cbc:CustomerAssignedAccountID>RTA94</cbc:CustomerAssignedAccountID>
+        <cbc:SupplierAssignedAccountID>IT36548902</cbc:SupplierAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Do Monde Entier</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Bourbon Street</cbc:StreetName>
+                <cbc:BuildingName>Sky Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>76L</cbc:BuildingNumber>
+                <cbc:CityName>New Orleans</cbc:CityName>
+                <cbc:PostalZone>RR65 7PP</cbc:PostalZone>
+                <cbc:CountrySubentity>Bourbon</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>8th Floor, Room 2</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>BG</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>New Orleans District</cbc:RegistrationName>
+                <cbc:CompanyID>53889256</cbc:CompanyID>
+                <cbc:ExemptionReason>Local Authority</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>UK VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Peter Kafka</cbc:Name>
+                <cbc:Telephone>8678 3267483</cbc:Telephone>
+                <cbc:Telefax>8678 3267483</cbc:Telefax>
+                <cbc:ElectronicMail>peterk@domondeentier.gov.us</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cbc:CustomerAssignedAccountID>EW854</cbc:CustomerAssignedAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Franchi Spa</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Short Way</cbc:StreetName>
+                <cbc:BuildingName>Little Tower</cbc:BuildingName>
+                <cbc:BuildingNumber>23E</cbc:BuildingNumber>
+                <cbc:CityName>Pennsylvania</cbc:CityName>
+                <cbc:PostalZone>TT43 6JJ</cbc:PostalZone>
+                <cbc:CountrySubentity>Heremouthshire</cbc:CountrySubentity>
+                <cac:AddressLine>
+                    <cbc:Line>The Roundabout</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode>KL</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:RegistrationName>Pennsylvania City</cbc:RegistrationName>
+                <cbc:CompanyID>237 904 4328</cbc:CompanyID>
+                <cbc:ExemptionReason>N/A</cbc:ExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:Contact>
+                <cbc:Name>Mr Tom Bills</cbc:Name>
+                <cbc:Telephone>3478 6338865</cbc:Telephone>
+                <cbc:Telefax>3478 6338865</cbc:Telefax>
+                <cbc:ElectronicMail>tombills@franchispa.co</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:Shipment>
+        <cbc:ID>1</cbc:ID>
+        <cac:Consignment>
+            <cbc:ID>1</cbc:ID>
+        </cac:Consignment>
+        <cac:Delivery>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="KGM">90</cbc:Quantity>
+            <cbc:ActualDeliveryDate>2011-02-14</cbc:ActualDeliveryDate>
+            <cbc:ActualDeliveryTime>09:20:00.0Z</cbc:ActualDeliveryTime>
+            <cac:RequestedDeliveryPeriod>
+                <cbc:StartDate>2011-02-14</cbc:StartDate>
+                <cbc:StartTime>08:20:17.0Z</cbc:StartTime>
+                <cbc:EndDate>2011-02-14</cbc:EndDate>
+                <cbc:EndTime>08:20:17.0Z</cbc:EndTime>
+            </cac:RequestedDeliveryPeriod>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>SAMPLE</cbc:Note>
+        <cbc:ReceivedQuantity unitCode="KGM">90</cbc:ReceivedQuantity>
+        <cbc:ShortQuantity unitCode="KGM">10</cbc:ShortQuantity>
+        <cac:Item>
+            <cbc:Description>Acme beeswax</cbc:Description>
+            <cbc:Name>beeswax</cbc:Name>
+            <cac:BuyersItemIdentification>
+                <cbc:ID>5438923</cbc:ID>
+            </cac:BuyersItemIdentification>
+            <cac:SellersItemIdentification>
+                <cbc:ID>45378236</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ItemInstance>
+                <cac:LotIdentification>
+                    <cbc:LotNumberID>633890254</cbc:LotNumberID>
+                    <cbc:ExpiryDate>2014-04-10</cbc:ExpiryDate>
+                </cac:LotIdentification>
+            </cac:ItemInstance>
+        </cac:Item>
+    </cac:ReceiptLine>
+</ReceiptAdvice>
